@@ -6,5 +6,5 @@ The library contains two simple static methods IsSQLi and IsXSS that return a bo
 
 ```
 var isSQLi = LibInjection.IsXSS("' OR 1=1;--");
-var isXss = LibInjection.IsXSS("<script>alert('hello')</script>");
+var isXSS = LibInjection.IsXSS("<script>alert('hello')</script>");
 ```
